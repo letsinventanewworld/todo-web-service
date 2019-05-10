@@ -10,7 +10,7 @@ public class Todo {
 	private boolean isDone;
 	
 	
-	public Todo() {
+	protected Todo() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
@@ -72,6 +72,10 @@ public class Todo {
 		if (id != other.id)
 			return false;
 		return true;
+	}
+
+	public void setId(long id) {
+		this.id = id;
 	}
 	
 	
