@@ -30,7 +30,6 @@ public class TodoController {
 	public List<Todo> getAllTodos(@PathVariable String username){
 		return todoService.findAll();
 	}
-	
 	@DeleteMapping("/users/{username}/todos/{id}")
 	public ResponseEntity<Void> deleteById(
 			@PathVariable String username, 
