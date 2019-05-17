@@ -1,4 +1,4 @@
-package com.tonasolution.rest.webservices.todowebservice.config;
+package com.tonasolution.rest.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
